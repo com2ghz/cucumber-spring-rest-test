@@ -19,7 +19,7 @@ public class PersonResource {
         this.personService = personService;
     }
 
-    @RequestMapping("/persons/")
+    @RequestMapping("/persons")
     public List<Person> getPersons() {
         return personService.getPersons();
     }
